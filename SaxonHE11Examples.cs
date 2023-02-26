@@ -218,7 +218,7 @@ namespace SaxonHE11IKVMNet48SaxonCSSamplesAdapted
             {
                 Console.WriteLine("Please supply a valid test name, or 'all' ('" + test + "' is invalid)");
             }
-            Console.WriteLine("\n==== done! ====");
+            Console.WriteLine("\n==== done! ==== .NET {0}", Environment.Version);
         }
     }
 
