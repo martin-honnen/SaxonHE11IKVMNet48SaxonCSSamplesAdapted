@@ -5,7 +5,8 @@ SaxonCS examples adapted to be used with Saxon HE 11 cross-compiled to .NET fram
 The basic usage is to install the NuGet package IKVM.Maven.Sdk to be able to pull in the Saxon HE 11 (e.g. 11.6) directly from Maven:
 ```
   <ItemGroup>
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.2" />
+    <PackageReference Include="IKVM" Version="8.8.0" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.9" />
     <MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />
     <!--<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
     <MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />-->
@@ -17,7 +18,7 @@ My extension project https://github.com/martin-honnen/SaxonHE11s9apiExtensions i
 ```
   <ItemGroup>
     <!--<PackageReference Include="IKVM.Maven.Sdk" Version="1.6.1" />-->
-    <PackageReference Include="SaxonHE11s9apiExtensions" Version="11.6.8.9 />
+    <PackageReference Include="SaxonHE11s9apiExtensions" Version="11.6.9 />
     <!--<MavenReference Include="net.sf.saxon:Saxon-HE" version="11.6" />-->
     <!--<MavenReference Include="org.xmlresolver:xmlresolver" Version="4.5.1" />
     <MavenReference Include="org.xmlresolver:xmlresolver" Category="data" Version="4.5.1" />-->
